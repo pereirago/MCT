@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+
+  <title>MCT Metal Construcciones Tillero — Ingeniería Industrial & Fabricación de Equipos Especiales</title>
+  <meta name="description" content="MCT Metal Construcciones Tillero, C.A. Contratistas especializados en servicios para la industria petrolera y fabricación de equipos especiales en Venezuela. RIF J-31592266-5.">
+  <meta name="keywords" content="MCT Tillero, metalmecánica Venezuela, piping Oil Gas, fabricación vacuum, low boys, tanques industriales, separadores, Hot Tapping, PDVSA, Anzoátegui">
+  <meta name="author" content="MCT Metal Construcciones Tillero, C.A.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.mct.com.ve/">
+  <meta property="og:title" content="MCT Metal Construcciones Tillero — Forjando Infraestructura Industrial">
+  <meta property="og:description" content="Servicios de ingeniería para Oil & Gas y fabricación de equipos especiales en Venezuela. San José de Guanipa, Anzoátegui.">
+  <meta property="og:image" content="https://www.mct.com.ve/assets2/hero_forge.webp">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/webp" href="assets2/logo.webp">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- ============================================================ -->
+  <!-- STATUS BAR — Barra HMI inferior fija                         -->
+  <!-- ============================================================ -->
+  <div class="status-bar" role="complementary" aria-label="Información de la empresa">
+    <span class="status-item">
+      <span class="status-dot status-dot--online" aria-label="Sistema operativo"></span>
+      SISTEMA OPERATIVO
+    </span>
+    <span class="status-sep">|</span>
+    <span class="status-item">MCT METAL CONSTRUCCIONES TILLERO, C.A.</span>
+    <span class="status-sep">|</span>
+    <span class="status-item"><span class="status-mono">RIF J-31592266-5</span></span>
+    <span class="status-sep">|</span>
+    <span class="status-item"><span class="status-mono">SAN JOSÉ DE GUANIPA · ANZOÁTEGUI · VE</span></span>
+    <span class="status-sep">|</span>
+    <span class="status-item"><span class="status-mono" id="status-time">--:--:--</span></span>
+    <span class="status-sep">|</span>
+    <span class="status-item status-item--right">
+      <span class="status-dot status-dot--amber"></span>
+      2 LÍNEAS ACTIVAS
+    </span>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- SIDEBAR — Navegación Vertical Fija                           -->
+  <!-- ============================================================ -->
+  <aside class="sidebar" role="navigation" aria-label="Navegación principal">
+    <div class="sidebar__brand">
+      <a href="#inicio" class="sidebar__logo-link" id="sidebar-logo">
+        <img src="assets2/logo.webp" alt="MCT Logo" class="sidebar__logo-img">
+      </a>
+      <span class="sidebar__brand-text" aria-hidden="true">MCT</span>
+    </div>
+
+    <nav class="sidebar__nav">
+      <a href="#inicio" class="sidebar__link sidebar__link--active" data-section="inicio" id="nav-inicio">
+        <span class="sidebar__link-code">00</span>
+        <span class="sidebar__link-label">Inicio</span>
+      </a>
+      <a href="#nosotros" class="sidebar__link" data-section="nosotros" id="nav-nosotros">
+        <span class="sidebar__link-code">01</span>
+        <span class="sidebar__link-label">Nosotros</span>
+      </a>
+      <a href="#oil-gas" class="sidebar__link sidebar__link--og" data-section="oil-gas" id="nav-og">
+        <span class="sidebar__link-code">02</span>
+        <span class="sidebar__link-label">Oil & Gas</span>
+      </a>
+      <a href="#fabricacion" class="sidebar__link sidebar__link--fab" data-section="fabricacion" id="nav-fab">
+        <span class="sidebar__link-code">03</span>
+        <span class="sidebar__link-label">Fabricación</span>
+      </a>
+      <a href="#capacidad" class="sidebar__link" data-section="capacidad" id="nav-cap">
+        <span class="sidebar__link-code">04</span>
+        <span class="sidebar__link-label">Capacidad</span>
+      </a>
+      <a href="#portafolio" class="sidebar__link" data-section="portafolio" id="nav-port">
+        <span class="sidebar__link-code">05</span>
+        <span class="sidebar__link-label">Proyectos</span>
+      </a>
+      <a href="#contacto" class="sidebar__link" data-section="contacto" id="nav-contact">
+        <span class="sidebar__link-code">06</span>
+        <span class="sidebar__link-label">Contacto</span>
+      </a>
+    </nav>
+
+    <div class="sidebar__footer">
+      <a href="https://instagram.com/mcttillero" target="_blank" rel="noopener noreferrer" class="sidebar__social" aria-label="Instagram MCT">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+      </a>
+      <span class="sidebar__rif" aria-label="RIF de la empresa">J-31592266-5</span>
+    </div>
+  </aside>
+
+  <!-- ============================================================ -->
+  <!-- MOBILE HEADER                                                 -->
+  <!-- ============================================================ -->
+  <header class="mobile-header" id="mobile-header">
+    <a href="#inicio" class="mobile-header__brand">
+      <img src="assets2/logo.webp" alt="MCT" class="mobile-header__logo">
+      <span>MCT</span>
+    </a>
+    <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="mobile-nav" id="mobile-nav" aria-hidden="true">
+      <a href="#inicio" class="mobile-nav__link">Inicio</a>
+      <a href="#nosotros" class="mobile-nav__link">Nosotros</a>
+      <a href="#oil-gas" class="mobile-nav__link">Oil &amp; Gas</a>
+      <a href="#fabricacion" class="mobile-nav__link">Fabricación</a>
+      <a href="#capacidad" class="mobile-nav__link">Capacidad</a>
+      <a href="#portafolio" class="mobile-nav__link">Proyectos</a>
+      <a href="#contacto" class="mobile-nav__link">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- ============================================================ -->
+  <!-- MAIN CONTENT                                                  -->
+  <!-- ============================================================ -->
+  <main class="main-content">
+
+    <!-- ========== SECTION 00: HERO — SPLIT ARCHITECTURE ========== -->
+    <section id="inicio" class="hero-split" aria-labelledby="hero-headline">
+
+      <!-- Left half: O&G -->
+      <div class="hero-split__half hero-split__half--og" id="hero-og-half">
+        <img src="assets2/og_field.webp" alt="Operaciones en campo de petróleo y gas" class="hero-split__bg-img">
+        <div class="hero-split__overlay hero-split__overlay--og"></div>
+        <div class="hero-split__content">
+          <div class="hero-split__ref">MCT-LINE·A</div>
+          <h2 class="hero-split__sub">INDUSTRIA PETROLERA &amp; EPC</h2>
+          <p class="hero-split__desc">Piping · Ductos · Hot Tapping · Paradas de Planta</p>
+          <a href="#oil-gas" class="forge-btn forge-btn--og">
+            <span>VER SERVICIOS</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Weld seam divider (animated) -->
+      <div class="hero-split__weld" aria-hidden="true">
+        <div class="weld-line"></div>
+        <div class="weld-spark weld-spark--1"></div>
+        <div class="weld-spark weld-spark--2"></div>
+        <div class="weld-spark weld-spark--3"></div>
+      </div>
+
+      <!-- Right half: Fabricación -->
+      <div class="hero-split__half hero-split__half--fab" id="hero-fab-half">
+        <img src="assets2/fab_shop.webp" alt="Taller de fabricación de equipos especiales" class="hero-split__bg-img">
+        <div class="hero-split__overlay hero-split__overlay--fab"></div>
+        <div class="hero-split__content hero-split__content--right">
+          <div class="hero-split__ref">MCT-LINE·B</div>
+          <h2 class="hero-split__sub">FABRICACIÓN DE EQUIPOS</h2>
+          <p class="hero-split__desc">Vacuums · Low Boys · Tanques · Separadores</p>
+          <a href="#fabricacion" class="forge-btn forge-btn--fab">
+            <span>VER CATÁLOGO</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Hero top badge -->
+      <div class="hero-split__masthead" aria-label="Nombre de la empresa">
+        <img src="assets2/logo.webp" alt="MCT Logo" class="hero-split__masthead-logo">
+        <div>
+          <h1 id="hero-headline" class="hero-split__title">MCT METAL CONSTRUCCIONES TILLERO</h1>
+          <p class="hero-split__slogan">"SU IDEA, NUESTRO TRABAJO" · ANZOÁTEGUI · VENEZUELA</p>
+        </div>
+      </div>
+
+      <!-- HMI Stats strip -->
+      <div class="hmi-strip" role="region" aria-label="Indicadores clave de la empresa">
+        <div class="hmi-metric">
+          <span class="hmi-metric__val" data-target="15" data-suffix="+ AÑOS">0</span>
+          <span class="hmi-metric__label">EXPERIENCIA</span>
+        </div>
+        <div class="hmi-sep" aria-hidden="true"></div>
+        <div class="hmi-metric">
+          <span class="hmi-metric__val" data-target="6" data-suffix=" CONTRATOS">0</span>
+          <span class="hmi-metric__label">PDVSA VERIFICADOS</span>
+        </div>
+        <div class="hmi-sep" aria-hidden="true"></div>
+        <div class="hmi-metric">
+          <span class="hmi-metric__val" data-target="12" data-suffix="+ TIPOS">0</span>
+          <span class="hmi-metric__label">EQUIPOS FABRICADOS</span>
+        </div>
+        <div class="hmi-sep" aria-hidden="true"></div>
+        <div class="hmi-metric">
+          <span class="hmi-metric__val" data-target="28" data-suffix=" TON">0</span>
+          <span class="hmi-metric__label">CAP. IZAJE (GRÚA PROPIA)</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- WELD DIVIDER -->
+    <div class="section-weld" aria-hidden="true"><div class="section-weld__line"></div></div>
+
+    <!-- ========== SECTION 01: NOSOTROS ========== -->
+    <section id="nosotros" class="forge-section" aria-labelledby="about-heading">
+      <div class="forge-section__inner">
+
+        <div class="forge-section__label">
+          <span class="section-ref">MCT·001</span>
+          <span class="section-ref-line" aria-hidden="true"></span>
+          <span class="section-ref-title">ACERCA DE LA EMPRESA</span>
+        </div>
+
+        <div class="about-layout">
+          <div class="about-layout__text">
+            <h2 id="about-heading" class="forge-heading">
+              <span class="forge-heading__slash" aria-hidden="true">//</span>
+              Forjamos Infraestructura<br>Industrial con <em>Precisión</em>
+            </h2>
+            <p class="forge-body">
+              MCT Metal Construcciones Tillero, C.A. es una empresa metalmecánica venezolana con planta propia en la Zona Industrial de San José de Guanipa, Estado Anzoátegui. Operamos con flota completa propia y personal certificado en dos grandes líneas de servicio: ingeniería de campo para la industria petrolera y fabricación de equipos especiales y semi-remolques a medida del cliente.
+            </p>
+            <p class="forge-body">
+              Más de una década de contratos ejecutados directamente con PDVSA, Petrolera Venangocupet, Baker Hughes y operadoras internacionales nos posicionan como el contratista de referencia en el oriente venezolano.
+            </p>
+
+            <div class="mv-grid">
+              <div class="mv-card">
+                <div class="mv-card__icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+                </div>
+                <div>
+                  <h3 class="mv-card__title">MISIÓN</h3>
+                  <p class="mv-card__text">Garantizar la continuidad operativa de nuestros clientes con soluciones de ingeniería seguras, precisas y entregadas a tiempo.</p>
+                </div>
+              </div>
+              <div class="mv-card">
+                <div class="mv-card__icon mv-card__icon--amber" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                </div>
+                <div>
+                  <h3 class="mv-card__title">VISIÓN</h3>
+                  <p class="mv-card__text">Ser el contratista EPC preferido del oriente venezolano y el fabricante de equipos especiales de referencia nacional.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-layout__specs">
+            <div class="spec-panel" aria-label="Datos corporativos de MCT">
+              <div class="spec-panel__header">
+                <span class="spec-panel__ref">DOC: MCT-CORP-001-2025</span>
+                <span class="spec-panel__title">FICHA TÉCNICA CORPORATIVA</span>
+              </div>
+              <div class="spec-panel__body">
+                <div class="spec-row"><span class="spec-row__label">RAZÓN SOCIAL</span><span class="spec-row__val">MCT Metal Construcciones Tillero, C.A.</span></div>
+                <div class="spec-row"><span class="spec-row__label">RIF</span><span class="spec-row__val spec-row__val--highlight">J-31592266-5</span></div>
+                <div class="spec-row"><span class="spec-row__label">DOMICILIO FISCAL</span><span class="spec-row__val">Av. Mariño c/c A. Petión, Zona Industrial Etapa III, San José de Guanipa, Edo. Anzoátegui</span></div>
+                <div class="spec-row"><span class="spec-row__label">TELÉFONOS</span><span class="spec-row__val">0414-982.21.43 · 0414-848.34.10</span></div>
+                <div class="spec-row"><span class="spec-row__label">CORREO</span><span class="spec-row__val">mcttillero@gmail.com</span></div>
+                <div class="spec-row"><span class="spec-row__label">LÍNEAS DE NEGOCIO</span><span class="spec-row__val">Oil &amp; Gas EPC · Fabricación de Equipos Especiales</span></div>
+                <div class="spec-row"><span class="spec-row__label">NORMAS APLICADAS</span><span class="spec-row__val">ASME IX · API 1104 · AWS D1.1 · AISC · ACI 318 · COVENIN</span></div>
+                <div class="spec-row"><span class="spec-row__label">ESTADO HSE</span><span class="spec-row__val"><span class="hse-badge-inline">● POLÍTICA CERO ACCIDENTES</span></span></div>
+              </div>
+              <div class="spec-panel__footer">
+                <span>EDICIÓN 2025</span>
+                <span>PRECALIFICADO PDVSA</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WELD DIVIDER -->
+    <div class="section-weld" aria-hidden="true"><div class="section-weld__line section-weld__line--og"></div></div>
+
+    <!-- ========== SECTION 02: OIL & GAS SERVICES ========== -->
+    <section id="oil-gas" class="forge-section forge-section--og" aria-labelledby="og-heading">
+      <div class="forge-section__inner">
+
+        <div class="forge-section__label">
+          <span class="section-ref section-ref--og">MCT·002</span>
+          <span class="section-ref-line section-ref-line--og" aria-hidden="true"></span>
+          <span class="section-ref-title">LÍNEA A · INDUSTRIA PETROLERA &amp; EPC</span>
+        </div>
+
+        <h2 id="og-heading" class="forge-heading">
+          <span class="forge-heading__slash forge-heading__slash--og" aria-hidden="true">//</span>
+          Servicios para la Industria<br>Petrolera y <em>Petroquímica</em>
+        </h2>
+
+        <p class="forge-body forge-body--wide">Calificados y precalificados ante PDVSA. Ejecutamos proyectos EPC bajo normas ASME, API y COVENIN con flota y personal propios, sin intermediarios operacionales.</p>
+
+        <div class="og-services-grid">
+
+          <article class="og-service-card" id="svc-lineas">
+            <div class="og-service-card__num" aria-hidden="true">SRV-001</div>
+            <div class="og-service-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12h18M12 3l9 9-9 9"/></svg>
+            </div>
+            <h3 class="og-service-card__title">Líneas de Flujo y Piping</h3>
+            <p class="og-service-card__desc">Fabricación y tendido de líneas de producción para petróleo, diluente e hidrocarburos. Múltiples diámetros, acero al carbono e inoxidable.</p>
+            <ul class="og-service-card__tags">
+              <li>Líneas de producción</li>
+              <li>Interconexión PTO</li>
+              <li>ASME B31.3 / API 1104</li>
+            </ul>
+          </article>
+
+          <article class="og-service-card" id="svc-ductos">
+            <div class="og-service-card__num" aria-hidden="true">SRV-002</div>
+            <div class="og-service-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="7" width="20" height="10" rx="2"/><path d="M12 7V4M12 17v3M8 4h8M8 20h8"/></svg>
+            </div>
+            <h3 class="og-service-card__title">Reparación de Ductos</h3>
+            <p class="og-service-card__desc">Intervención de oleoductos y diluenductos 20"–36". Reemplazo de secciones, camisas de refuerzo, grapas metálicas y saneamiento ambiental.</p>
+            <ul class="og-service-card__tags">
+              <li>Oleoductos 26"–36"</li>
+              <li>Diluenductos 20"–30"</li>
+              <li>Conchas soldadas</li>
+            </ul>
+          </article>
+
+          <article class="og-service-card" id="svc-hottap">
+            <div class="og-service-card__num" aria-hidden="true">SRV-003</div>
+            <div class="og-service-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M12 6v6l4 2"/></svg>
+            </div>
+            <h3 class="og-service-card__title">Hot Tapping — Perforación en Caliente</h3>
+            <p class="og-service-card__desc">Conexión en tuberías activas sin detener el flujo. Stoples fitting, bypass, instalación en oleoductos 26" y diluenductos 30" en operación.</p>
+            <ul class="og-service-card__tags">
+              <li>Sin detención del flujo</li>
+              <li>Stoples fitting</li>
+              <li>Fabricación de bypass</li>
+            </ul>
+          </article>
+
+          <article class="og-service-card" id="svc-mant">
+            <div class="og-service-card__num" aria-hidden="true">SRV-004</div>
+            <div class="og-service-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3 class="og-service-card__title">Mantenimiento de Facilidades</h3>
+            <p class="og-service-card__desc">Conexión, mantenimiento y reemplazo de facilidades metalmecánicas. Salas de medición fiscal, patio de tanques, paradas de planta programadas y correctivas.</p>
+            <ul class="og-service-card__tags">
+              <li>Sala Medición Fiscal</li>
+              <li>Paradas de planta</li>
+              <li>Reemplazo cabezales</li>
+            </ul>
+          </article>
+
+          <article class="og-service-card" id="svc-ndt">
+            <div class="og-service-card__num" aria-hidden="true">SRV-005</div>
+            <div class="og-service-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35M11 8v3l2 2"/></svg>
+            </div>
+            <h3 class="og-service-card__title">Ensayos No Destructivos (NDT)</h3>
+            <p class="og-service-card__desc">Inspección y certificación de integridad mediante ensayos no destructivos. Tinte Penetrante (PT), inspección visual certificada y documentación técnica.</p>
+            <ul class="og-service-card__tags">
+              <li>Tinte Penetrante (PT)</li>
+              <li>Inspección visual</li>
+              <li>Documentación técnica</li>
+            </ul>
+          </article>
+
+          <article class="og-service-card" id="svc-sand">
+            <div class="og-service-card__num" aria-hidden="true">SRV-006</div>
+            <div class="og-service-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22V12M12 12L2 7M12 12l10-5M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+            <h3 class="og-service-card__title">Sandblasting y Revestimiento</h3>
+            <p class="og-service-card__desc">Limpieza superficial con chorro de arena (Sa 2.5) y aplicación de revestimiento anticorrosivo. Corte en frío de tuberías de diferentes diámetros.</p>
+            <ul class="og-service-card__tags">
+              <li>Chorro de arena Sa 2.5</li>
+              <li>Revestimiento anticorrosivo</li>
+              <li>Corte en frío</li>
+            </ul>
+          </article>
+
+          <article class="og-service-card" id="svc-izaje">
+            <div class="og-service-card__num" aria-hidden="true">SRV-007</div>
+            <div class="og-service-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 17H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-2"/><polygon points="12 15 17 21 7 21 12 15"/></svg>
+            </div>
+            <h3 class="og-service-card__title">Izamiento y Montaje de Equipos</h3>
+            <p class="og-service-card__desc">Maniobras de izaje con grúa telescópica P&H RT130 propia (28 Ton). Posicionamiento, nivelación y alineación de recipientes, torres y maquinaria rotativa.</p>
+            <ul class="og-service-card__tags">
+              <li>Grúa P&H 28 Ton.</li>
+              <li>Alineación láser</li>
+              <li>Chuto brazo hidráulico 21T</li>
+            </ul>
+          </article>
+
+          <article class="og-service-card" id="svc-civil">
+            <div class="og-service-card__num" aria-hidden="true">SRV-008</div>
+            <div class="og-service-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <h3 class="og-service-card__title">Obras Civiles de Soporte</h3>
+            <p class="og-service-card__desc">Construcción de bases monolíticas, pedestales, diques y sistemas de drenaje para infraestructura industrial. Hormigonera autocargable CARMIX 3.5T propia.</p>
+            <ul class="og-service-card__tags">
+              <li>ACI 318 / COVENIN</li>
+              <li>Bases para equipos dinámicos</li>
+              <li>Diques y drenajes</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- WELD DIVIDER -->
+    <div class="section-weld" aria-hidden="true"><div class="section-weld__line section-weld__line--fab"></div></div>
+
+    <!-- ========== SECTION 03: FABRICACIÓN ========== -->
+    <section id="fabricacion" class="forge-section forge-section--fab" aria-labelledby="fab-heading">
+      <div class="forge-section__inner">
+
+        <div class="forge-section__label">
+          <span class="section-ref section-ref--fab">MCT·003</span>
+          <span class="section-ref-line section-ref-line--fab" aria-hidden="true"></span>
+          <span class="section-ref-title">LÍNEA B · FABRICACIÓN DE EQUIPOS ESPECIALES</span>
+        </div>
+
+        <h2 id="fab-heading" class="forge-heading">
+          <span class="forge-heading__slash forge-heading__slash--fab" aria-hidden="true">//</span>
+          Catálogo de Equipos<br>Fabricados <em>a Medida</em>
+        </h2>
+
+        <p class="forge-body forge-body--wide">"Su Idea, Nuestro Trabajo." — Fabricamos equipos de transporte pesado, almacenamiento industrial y procesamiento de fluidos con especificaciones exactas del cliente. Capacidad y color variables.</p>
+
+        <!-- Selector de categoría -->
+        <div class="fab-tabs" role="tablist" aria-label="Categorías de equipos">
+          <button class="fab-tab fab-tab--active" data-cat="remolques" role="tab" aria-selected="true" id="tab-remolques">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="10" rx="2"/><circle cx="7" cy="20" r="2"/><circle cx="17" cy="20" r="2"/></svg>
+            SEMI-REMOLQUES
+          </button>
+          <button class="fab-tab" data-cat="tanques" role="tab" aria-selected="false" id="tab-tanques">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="12" rx="10" ry="6"/><path d="M2 12v4c0 3.31 4.48 6 10 6s10-2.69 10-6v-4"/></svg>
+            TANQUES
+          </button>
+          <button class="fab-tab" data-cat="separadores" role="tab" aria-selected="false" id="tab-sep">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12H2M12 2v20M17 7l-5 5-5-5M7 17l5-5 5 5"/></svg>
+            SEPARADORES
+          </button>
+          <button class="fab-tab" data-cat="estructuras" role="tab" aria-selected="false" id="tab-est">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+            ESTRUCTURAS
+          </button>
+        </div>
+
+        <!-- Paneles de catálogo -->
+        <div id="cat-remolques" class="fab-panel fab-panel--active" role="tabpanel" aria-labelledby="tab-remolques">
+          <div class="datasheet-grid">
+
+            <article class="datasheet-card" id="ds-vacuum">
+              <div class="datasheet-card__header">
+                <span class="datasheet-card__ref">MCT-EQ-001</span>
+                <h3 class="datasheet-card__name">VACUUM</h3>
+                <span class="datasheet-card__type">SEMI-REMOLQUE</span>
+              </div>
+              <div class="datasheet-card__body">
+                <table class="spec-table">
+                  <tbody>
+                    <tr><th>Capacidad</th><td>160 Bls.</td></tr>
+                    <tr><th>Peso neto</th><td>8.000 Kg.</td></tr>
+                    <tr><th>Cap. carga</th><td>30.000 Kg.</td></tr>
+                    <tr><th>N° ejes</th><td>2</td></tr>
+                    <tr><th>Color</th><td>A pedido</td></tr>
+                    <tr><th>Servicio</th><td>Fab. y Reparación</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="datasheet-card__footer">
+                <a href="#contacto" class="datasheet-cta">SOLICITAR COTIZACIÓN →</a>
+              </div>
+            </article>
+
+            <article class="datasheet-card" id="ds-lowboy">
+              <div class="datasheet-card__header">
+                <span class="datasheet-card__ref">MCT-EQ-002</span>
+                <h3 class="datasheet-card__name">LOW BOY</h3>
+                <span class="datasheet-card__type">SEMI-REMOLQUE</span>
+              </div>
+              <div class="datasheet-card__body">
+                <table class="spec-table">
+                  <tbody>
+                    <tr><th>Uso</th><td>Carga extra pesada</td></tr>
+                    <tr><th>Peso neto</th><td>7.800 – 8.500 Kg.</td></tr>
+                    <tr><th>Cap. carga</th><td>30.000 Kg.</td></tr>
+                    <tr><th>N° ejes</th><td>2 y/o 3</td></tr>
+                    <tr><th>Color</th><td>A pedido</td></tr>
+                    <tr><th>Servicio</th><td>Fabricación</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="datasheet-card__footer">
+                <a href="#contacto" class="datasheet-cta">SOLICITAR COTIZACIÓN →</a>
+              </div>
+            </article>
+
+            <article class="datasheet-card" id="ds-batea">
+              <div class="datasheet-card__header">
+                <span class="datasheet-card__ref">MCT-EQ-003</span>
+                <h3 class="datasheet-card__name">BATEA / PLATAFORMA</h3>
+                <span class="datasheet-card__type">SEMI-REMOLQUE</span>
+              </div>
+              <div class="datasheet-card__body">
+                <table class="spec-table">
+                  <tbody>
+                    <tr><th>Dimensión</th><td>12 Mts.</td></tr>
+                    <tr><th>Peso neto</th><td>6.800 Kg.</td></tr>
+                    <tr><th>Cap. carga</th><td>25.000 Kg.</td></tr>
+                    <tr><th>N° ejes</th><td>2 y/o 3</td></tr>
+                    <tr><th>Color</th><td>A pedido</td></tr>
+                    <tr><th>Servicio</th><td>Fabricación</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="datasheet-card__footer">
+                <a href="#contacto" class="datasheet-cta">SOLICITAR COTIZACIÓN →</a>
+              </div>
+            </article>
+
+            <article class="datasheet-card" id="ds-fractank">
+              <div class="datasheet-card__header">
+                <span class="datasheet-card__ref">MCT-EQ-004</span>
+                <h3 class="datasheet-card__name">FRAC TANK</h3>
+                <span class="datasheet-card__type">SEMI-REMOLQUE</span>
+              </div>
+              <div class="datasheet-card__body">
+                <table class="spec-table">
+                  <tbody>
+                    <tr><th>Capacidad</th><td>500 Bls.</td></tr>
+                    <tr><th>Peso neto</th><td>9.500 Kg.</td></tr>
+                    <tr><th>Cap. carga</th><td>29.000 Kg.</td></tr>
+                    <tr><th>N° ejes</th><td>1</td></tr>
+                    <tr><th>Color</th><td>A pedido</td></tr>
+                    <tr><th>Servicio</th><td>Fabricación</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="datasheet-card__footer">
+                <a href="#contacto" class="datasheet-cta">SOLICITAR COTIZACIÓN →</a>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+        <div id="cat-tanques" class="fab-panel" role="tabpanel" aria-labelledby="tab-tanques">
+          <div class="datasheet-grid datasheet-grid--3">
+            <article class="datasheet-card"><div class="datasheet-card__header"><span class="datasheet-card__ref">MCT-EQ-010</span><h3 class="datasheet-card__name">TANQUE ALMACENAMIENTO</h3><span class="datasheet-card__type">FIJO</span></div><div class="datasheet-card__body"><table class="spec-table"><tbody><tr><th>Capacidad</th><td>250 / 500 Bls.</td></tr><tr><th>Litros</th><td>3.000 – 50.000</td></tr><tr><th>Fluido</th><td>Crudo, diluente, agua, combustibles</td></tr></tbody></table></div><div class="datasheet-card__footer"><a href="#contacto" class="datasheet-cta">COTIZAR →</a></div></article>
+            <article class="datasheet-card"><div class="datasheet-card__header"><span class="datasheet-card__ref">MCT-EQ-011</span><h3 class="datasheet-card__name">CANOA — 250 Bls.</h3><span class="datasheet-card__type">HORIZONTAL</span></div><div class="datasheet-card__body"><table class="spec-table"><tbody><tr><th>Tipo</th><td>Almacenamiento horizontal</td></tr><tr><th>Cap.</th><td>250 Bls. (variable)</td></tr></tbody></table></div><div class="datasheet-card__footer"><a href="#contacto" class="datasheet-cta">COTIZAR →</a></div></article>
+            <article class="datasheet-card"><div class="datasheet-card__header"><span class="datasheet-card__ref">MCT-EQ-012</span><h3 class="datasheet-card__name">TANQUE CILÍNDRICO</h3><span class="datasheet-card__type">VERTICAL</span></div><div class="datasheet-card__body"><table class="spec-table"><tbody><tr><th>Mod. A</th><td>2.500 Lts.</td></tr><tr><th>Mod. B</th><td>10.000 Lts.</td></tr></tbody></table></div><div class="datasheet-card__footer"><a href="#contacto" class="datasheet-cta">COTIZAR →</a></div></article>
+            <article class="datasheet-card"><div class="datasheet-card__header"><span class="datasheet-card__ref">MCT-EQ-013</span><h3 class="datasheet-card__name">TANQUE DE LAVADO</h3><span class="datasheet-card__type">PROCESO</span></div><div class="datasheet-card__body"><table class="spec-table"><tbody><tr><th>Incl.</th><td>Tuberías conductoras</td></tr><tr><th>Uso</th><td>Lavado industrial</td></tr></tbody></table></div><div class="datasheet-card__footer"><a href="#contacto" class="datasheet-cta">COTIZAR →</a></div></article>
+            <article class="datasheet-card"><div class="datasheet-card__header"><span class="datasheet-card__ref">MCT-EQ-014</span><h3 class="datasheet-card__name">FILTROS TIPO CESTA</h3><span class="datasheet-card__type">INOX.</span></div><div class="datasheet-card__body"><table class="spec-table"><tbody><tr><th>Material</th><td>Acero inoxidable</td></tr><tr><th>Diámetro</th><td>20" y 36"</td></tr></tbody></table></div><div class="datasheet-card__footer"><a href="#contacto" class="datasheet-cta">COTIZAR →</a></div></article>
+          </div>
+        </div>
+
+        <div id="cat-separadores" class="fab-panel" role="tabpanel" aria-labelledby="tab-sep">
+          <div class="datasheet-grid datasheet-grid--3">
+            <article class="datasheet-card"><div class="datasheet-card__header"><span class="datasheet-card__ref">MCT-EQ-020</span><h3 class="datasheet-card__name">SEPARADOR BIFÁSICO</h3><span class="datasheet-card__type">GAS-LÍQUIDO</span></div><div class="datasheet-card__body"><table class="spec-table"><tbody><tr><th>Uso</th><td>Pozos y estaciones de flujo</td></tr><tr><th>Fases</th><td>Gas + Líquido</td></tr></tbody></table></div><div class="datasheet-card__footer"><a href="#contacto" class="datasheet-cta">COTIZAR →</a></div></article>
+            <article class="datasheet-card"><div class="datasheet-card__header"><span class="datasheet-card__ref">MCT-EQ-021</span><h3 class="datasheet-card__name">SEPARADOR TRIFÁSICO</h3><span class="datasheet-card__type">GAS-ACEITE-AGUA</span></div><div class="datasheet-card__body"><table class="spec-table"><tbody><tr><th>Uso</th><td>Producción y separación</td></tr><tr><th>Fases</th><td>Gas + Aceite + Agua</td></tr></tbody></table></div><div class="datasheet-card__footer"><a href="#contacto" class="datasheet-cta">COTIZAR →</a></div></article>
+            <article class="datasheet-card"><div class="datasheet-card__header"><span class="datasheet-card__ref">MCT-EQ-022</span><h3 class="datasheet-card__name">CALENTADOR BIFÁSICO / TRIFÁSICO</h3><span class="datasheet-card__type">PROCESO</span></div><div class="datasheet-card__body"><table class="spec-table"><tbody><tr><th>Uso</th><td>Crudos pesados</td></tr><tr><th>Incl.</th><td>Caja de fuego</td></tr></tbody></table></div><div class="datasheet-card__footer"><a href="#contacto" class="datasheet-cta">COTIZAR →</a></div></article>
+            <article class="datasheet-card"><div class="datasheet-card__header"><span class="datasheet-card__ref">MCT-EQ-023</span><h3 class="datasheet-card__name">CLORINADOR / PLANTA TRATAMIENTO</h3><span class="datasheet-card__type">AGUA</span></div><div class="datasheet-card__body"><table class="spec-table"><tbody><tr><th>Uso</th><td>Tratamiento y cloración de agua</td></tr><tr><th>Aplicación</th><td>Industrial / Comunidades</td></tr></tbody></table></div><div class="datasheet-card__footer"><a href="#contacto" class="datasheet-cta">COTIZAR →</a></div></article>
+          </div>
+        </div>
+
+        <div id="cat-estructuras" class="fab-panel" role="tabpanel" aria-labelledby="tab-est">
+          <div class="datasheet-grid datasheet-grid--3">
+            <article class="datasheet-card"><div class="datasheet-card__header"><span class="datasheet-card__ref">MCT-EQ-030</span><h3 class="datasheet-card__name">ESTRUCTURA PARA GALPÓN</h3><span class="datasheet-card__type">CIVIL</span></div><div class="datasheet-card__body"><table class="spec-table"><tbody><tr><th>Incl.</th><td>Cabrias, canales, portones, techado</td></tr><tr><th>Servicio</th><td>Fabricación e instalación</td></tr></tbody></table></div><div class="datasheet-card__footer"><a href="#contacto" class="datasheet-cta">COTIZAR →</a></div></article>
+            <article class="datasheet-card"><div class="datasheet-card__header"><span class="datasheet-card__ref">MCT-EQ-031</span><h3 class="datasheet-card__name">SILOS Y TOLVAS CEMENTO</h3><span class="datasheet-card__type">CEMENTO</span></div><div class="datasheet-card__body"><table class="spec-table"><tbody><tr><th>Servicio</th><td>Fabricación y reparación</td></tr><tr><th>Capacidad</th><td>Variable</td></tr></tbody></table></div><div class="datasheet-card__footer"><a href="#contacto" class="datasheet-cta">COTIZAR →</a></div></article>
+            <article class="datasheet-card"><div class="datasheet-card__header"><span class="datasheet-card__ref">MCT-EQ-032</span><h3 class="datasheet-card__name">CAMIÓN PREMEZCLADO</h3><span class="datasheet-card__type">CONSTRUCCIÓN</span></div><div class="datasheet-card__body"><table class="spec-table"><tbody><tr><th>Servicio</th><td>Fabricación y reparación</td></tr><tr><th>Uso</th><td>Hormigonera móvil</td></tr></tbody></table></div><div class="datasheet-card__footer"><a href="#contacto" class="datasheet-cta">COTIZAR →</a></div></article>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WELD DIVIDER -->
+    <div class="section-weld" aria-hidden="true"><div class="section-weld__line"></div></div>
+
+    <!-- ========== SECTION 04: CAPACIDAD ========== -->
+    <section id="capacidad" class="forge-section" aria-labelledby="cap-heading">
+      <div class="forge-section__inner">
+        <div class="forge-section__label">
+          <span class="section-ref">MCT·004</span>
+          <span class="section-ref-line" aria-hidden="true"></span>
+          <span class="section-ref-title">FLOTA Y CAPACIDAD OPERATIVA PROPIA</span>
+        </div>
+
+        <h2 id="cap-heading" class="forge-heading">
+          <span class="forge-heading__slash" aria-hidden="true">//</span>
+          Operamos con Recursos <em>Propios.</em><br>Sin Intermediarios.
+        </h2>
+
+        <p class="forge-body forge-body--wide">Nuestra flota de maquinaria pesada y vehículos es un diferenciador crítico frente a la competencia. Garantizamos disponibilidad inmediata sin depender de terceros para operaciones en campo.</p>
+
+        <div class="capacity-grid">
+
+          <div class="capacity-category">
+            <h3 class="capacity-category__title">
+              <span class="capacity-category__icon" aria-hidden="true">⬡</span>
+              MAQUINARIA PESADA
+            </h3>
+            <div class="capacity-items">
+              <div class="capacity-item">
+                <span class="capacity-item__code">EQ-001</span>
+                <div class="capacity-item__info">
+                  <strong>Grúa Telescópica P&H RT130 S/R</strong>
+                  <span class="capacity-item__spec">Capacidad: <em>28 Toneladas</em></span>
+                </div>
+              </div>
+              <div class="capacity-item">
+                <span class="capacity-item__code">EQ-002</span>
+                <div class="capacity-item__info">
+                  <strong>Chuto con Brazo Hidráulico</strong>
+                  <span class="capacity-item__spec">Capacidad: <em>21 Toneladas</em></span>
+                </div>
+              </div>
+              <div class="capacity-item">
+                <span class="capacity-item__code">EQ-003</span>
+                <div class="capacity-item__info">
+                  <strong>Mercedes Benz Plataforma Hidráulica</strong>
+                  <span class="capacity-item__spec">Cap. 1.500 T. / 3.105 T.</span>
+                </div>
+              </div>
+              <div class="capacity-item">
+                <span class="capacity-item__code">EQ-004</span>
+                <div class="capacity-item__info">
+                  <strong>Retroexcavadora CAT 420D</strong>
+                  <span class="capacity-item__spec">Movimiento de tierra y excavación</span>
+                </div>
+              </div>
+              <div class="capacity-item">
+                <span class="capacity-item__code">EQ-005</span>
+                <div class="capacity-item__info">
+                  <strong>Payloader 936F</strong>
+                  <span class="capacity-item__spec">Carga y movimiento de materiales</span>
+                </div>
+              </div>
+              <div class="capacity-item">
+                <span class="capacity-item__code">EQ-006</span>
+                <div class="capacity-item__info">
+                  <strong>Hormigonera Autocargable CARMIX 3.5T</strong>
+                  <span class="capacity-item__spec">Mezcla y vaciado in-situ</span>
+                </div>
+              </div>
+              <div class="capacity-item">
+                <span class="capacity-item__code">EQ-007</span>
+                <div class="capacity-item__info">
+                  <strong>Minishower CAT 216B (Skid Steer)</strong>
+                  <span class="capacity-item__spec">Espacios reducidos</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="capacity-category">
+            <h3 class="capacity-category__title">
+              <span class="capacity-category__icon" aria-hidden="true">⬡</span>
+              FLOTA VEHICULAR · 20+ UNIDADES
+            </h3>
+            <div class="capacity-items">
+              <div class="capacity-item">
+                <span class="capacity-item__code">VH-001</span>
+                <div class="capacity-item__info">
+                  <strong>Chevrolet Kodiak — Chuto</strong>
+                  <span class="capacity-item__spec">Cap. 28.602 Kg.</span>
+                </div>
+              </div>
+              <div class="capacity-item">
+                <span class="capacity-item__code">VH-002</span>
+                <div class="capacity-item__info">
+                  <strong>Chevrolet FVR — Volteo</strong>
+                  <span class="capacity-item__spec">Cap. 11.925 Kg.</span>
+                </div>
+              </div>
+              <div class="capacity-item">
+                <span class="capacity-item__code">VH-003</span>
+                <div class="capacity-item__info">
+                  <strong>Ford F-350 4×4 Plataforma/Cisterna</strong>
+                  <span class="capacity-item__spec">Múltiples unidades operacionales</span>
+                </div>
+              </div>
+              <div class="capacity-item">
+                <span class="capacity-item__code">VH-004</span>
+                <div class="capacity-item__info">
+                  <strong>Chevrolet C3500 — Ambulancia de Planta</strong>
+                  <span class="capacity-item__spec">× 2 uds. — Protocolo HSE</span>
+                </div>
+              </div>
+              <div class="capacity-item">
+                <span class="capacity-item__code">VH-005</span>
+                <div class="capacity-item__info">
+                  <strong>Camionetas 4×4 Doble Cabina</strong>
+                  <span class="capacity-item__spec">Cheyenne · LUV · Nissan D22 · F-250</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="capacity-category">
+            <h3 class="capacity-category__title">
+              <span class="capacity-category__icon" aria-hidden="true">⬡</span>
+              EQUIPOS DE TALLER
+            </h3>
+            <div class="capacity-items">
+              <div class="capacity-item">
+                <span class="capacity-item__code">TL-001</span>
+                <div class="capacity-item__info">
+                  <strong>Lincoln SAE-50</strong>
+                  <span class="capacity-item__spec">Soldadura a gasolina/gasoil (campo)</span>
+                </div>
+              </div>
+              <div class="capacity-item">
+                <span class="capacity-item__code">TL-002</span>
+                <div class="capacity-item__info">
+                  <strong>Millermatic Deltaweld 452 / 22A</strong>
+                  <span class="capacity-item__spec">Soldadura eléctrica alta capacidad</span>
+                </div>
+              </div>
+              <div class="capacity-item">
+                <span class="capacity-item__code">TL-003</span>
+                <div class="capacity-item__info">
+                  <strong>Millermatic 250 / 251 / 252</strong>
+                  <span class="capacity-item__spec">Soldadura MIG/TIG</span>
+                </div>
+              </div>
+              <div class="capacity-item">
+                <span class="capacity-item__code">TL-004</span>
+                <div class="capacity-item__info">
+                  <strong>Cortador Plasma + Compresores de Aire</strong>
+                  <span class="capacity-item__spec">Corte de precisión y sandblasting</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- WELD DIVIDER -->
+    <div class="section-weld" aria-hidden="true"><div class="section-weld__line"></div></div>
+
+    <!-- ========== SECTION 05: PORTAFOLIO ========== -->
+    <section id="portafolio" class="forge-section" aria-labelledby="port-heading">
+      <div class="forge-section__inner">
+        <div class="forge-section__label">
+          <span class="section-ref">MCT·005</span>
+          <span class="section-ref-line" aria-hidden="true"></span>
+          <span class="section-ref-title">CONTRATOS EJECUTADOS Y VERIFICADOS</span>
+        </div>
+
+        <h2 id="port-heading" class="forge-heading">
+          <span class="forge-heading__slash" aria-hidden="true">//</span>
+          Historial Verificado:<br><em>6 Contratos PDVSA</em> y Contratistas Internacionales
+        </h2>
+
+        <!-- Contratos verificados -->
+        <div class="contracts-log" aria-label="Historial de contratos verificados">
+
+          <div class="contract-entry contract-entry--pdvsa">
+            <div class="contract-entry__meta">
+              <span class="contract-entry__ref">PDVSA · 4600097471</span>
+              <span class="contract-entry__period">MAR – ABR 2019</span>
+            </div>
+            <div class="contract-entry__info">
+              <h3 class="contract-entry__title">Reemplazo Sección Oleoducto 26" — Troncal 51 (Río Guario)</h3>
+              <p class="contract-entry__desc">Reemplazo de sección y saneamiento ambiental en oleoducto 26". Carretera Nacional Cantaura-Anaco, Edo. Anzoátegui. Norma: ASME B31.4 / API 1104.</p>
+            </div>
+            <span class="contract-entry__badge">✓ VERIFICADO</span>
+          </div>
+
+          <div class="contract-entry contract-entry--pdvsa">
+            <div class="contract-entry__meta">
+              <span class="contract-entry__ref">PDVSA · 4600102801</span>
+              <span class="contract-entry__period">DIC 2019</span>
+            </div>
+            <div class="contract-entry__info">
+              <h3 class="contract-entry__title">Reparación Mecánica Diluenducto 20" — Palmichal</h3>
+              <p class="contract-entry__desc">Reparación mecánica del diluenducto de 20" Palmichal-PTO. Sector Barbacoa, Edo. Anzoátegui.</p>
+            </div>
+            <span class="contract-entry__badge">✓ VERIFICADO</span>
+          </div>
+
+          <div class="contract-entry contract-entry--pdvsa">
+            <div class="contract-entry__meta">
+              <span class="contract-entry__ref">PDVSA · 4600096138</span>
+              <span class="contract-entry__period">DIC 2018 – FEB 2019</span>
+            </div>
+            <div class="contract-entry__info">
+              <h3 class="contract-entry__title">Reparación y Saneamiento — Sala Medición Fiscal Cabrutica</h3>
+              <p class="contract-entry__desc">Reparación de tubería en Sala de Medición Fiscal del Patio Cabrutica. Coordinación Faja Frente 2.</p>
+            </div>
+            <span class="contract-entry__badge">✓ VERIFICADO</span>
+          </div>
+
+          <div class="contract-entry contract-entry--venangocupet">
+            <div class="contract-entry__meta">
+              <span class="contract-entry__ref">VENANGOCUPET · 4R-158-006-D-17-N-0017</span>
+              <span class="contract-entry__period">SEP 2017 – MAR 2018</span>
+            </div>
+            <div class="contract-entry__info">
+              <h3 class="contract-entry__title">Soldadura Operacional — Estaciones Campo Miga</h3>
+              <p class="contract-entry__desc">Servicio de soldadura en estaciones del Campo Miga. Empresa Mixta Petrolera Venangocupet, S.A.</p>
+            </div>
+            <span class="contract-entry__badge">✓ VERIFICADO</span>
+          </div>
+
+          <div class="contract-entry contract-entry--venangocupet">
+            <div class="contract-entry__meta">
+              <span class="contract-entry__ref">VENANGOCUPET · 4R-158-006-D-17-S-0016</span>
+              <span class="contract-entry__period">MAY – SEP 2017</span>
+            </div>
+            <div class="contract-entry__info">
+              <h3 class="contract-entry__title">Soldadura Operacional — Campo Melones Oeste</h3>
+              <p class="contract-entry__desc">Servicio de soldadura para actividades operacionales en estaciones del Campo Melones Oeste.</p>
+            </div>
+            <span class="contract-entry__badge">✓ VERIFICADO</span>
+          </div>
+
+          <div class="contract-entry contract-entry--venangocupet">
+            <div class="contract-entry__meta">
+              <span class="contract-entry__ref">VENANGOCUPET · 4R-158-006-D-17-S-0053</span>
+              <span class="contract-entry__period">OCT 2017 – MAR 2018</span>
+            </div>
+            <div class="contract-entry__info">
+              <h3 class="contract-entry__title">Servicio de Izamiento y Carga Liviana — Áreas Operacionales</h3>
+              <p class="contract-entry__desc">Servicio de izamiento y carga liviana en las áreas operacionales de la Empresa Mixta Petrolera Venangocupet, S.A.</p>
+            </div>
+            <span class="contract-entry__badge">✓ VERIFICADO</span>
+          </div>
+
+        </div>
+
+        <!-- Clientes strip -->
+        <div class="clients-strip" aria-label="Clientes de MCT">
+          <p class="clients-strip__label">CLIENTES ATENDIDOS:</p>
+          <div class="clients-strip__list">
+            <span>PDVSA</span><span>VENANGOCUPET</span><span>BAKER HUGHES</span><span>WEATHERFORD</span><span>REIMPET HOLDING</span><span>PETRO SAN FELIX</span><span>INPEGAS</span><span>IMETAL</span><span>SERDISURCA</span><span>REMOCA</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WELD DIVIDER -->
+    <div class="section-weld" aria-hidden="true"><div class="section-weld__line section-weld__line--og"></div></div>
+
+    <!-- ========== SECTION 06: CONTACTO ========== -->
+    <section id="contacto" class="forge-section" aria-labelledby="contact-heading">
+      <div class="forge-section__inner">
+        <div class="forge-section__label">
+          <span class="section-ref">MCT·006</span>
+          <span class="section-ref-line" aria-hidden="true"></span>
+          <span class="section-ref-title">SOLICITUD DE COTIZACIÓN · RFQ</span>
+        </div>
+
+        <div class="contact-layout">
+          <div class="contact-layout__info">
+            <h2 id="contact-heading" class="forge-heading">
+              <span class="forge-heading__slash" aria-hidden="true">//</span>
+              Inicie su Licitación<br>o Solicite un <em>Equipo</em>
+            </h2>
+            <p class="forge-body">Envíe las especificaciones de su proyecto O&G o del equipo a fabricar. Respondemos en 48 horas hábiles con una propuesta técnica detallada.</p>
+
+            <div class="contact-data">
+              <div class="contact-data__item">
+                <span class="contact-data__label">CORREO</span>
+                <a href="mailto:mcttillero@gmail.com" class="contact-data__val">mcttillero@gmail.com</a>
+              </div>
+              <div class="contact-data__item">
+                <span class="contact-data__label">CORREO ALT.</span>
+                <a href="mailto:mcttillero@hotmail.com" class="contact-data__val">mcttillero@hotmail.com</a>
+              </div>
+              <div class="contact-data__item">
+                <span class="contact-data__label">TELÉFONO 1</span>
+                <a href="tel:+584149822143" class="contact-data__val">0414-982.21.43</a>
+              </div>
+              <div class="contact-data__item">
+                <span class="contact-data__label">TELÉFONO 2</span>
+                <a href="tel:+584148483410" class="contact-data__val">0414-848.34.10</a>
+              </div>
+              <div class="contact-data__item">
+                <span class="contact-data__label">DIRECCIÓN</span>
+                <span class="contact-data__val">Av. Mariño c/c A. Petión, Zona Industrial Etapa III, San José de Guanipa, Edo. Anzoátegui</span>
+              </div>
+              <div class="contact-data__item">
+                <span class="contact-data__label">WEB</span>
+                <span class="contact-data__val">www.mct.com.ve</span>
+              </div>
+            </div>
+
+            <div class="contact-map-forge">
+              <iframe src="https://maps.google.com/maps?q=8.863592364504086,-64.17483039795933&hl=es&z=16&output=embed" class="contact-map-forge__frame" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Ubicación MCT San José de Guanipa"></iframe>
+            </div>
+          </div>
+
+          <div class="contact-layout__form">
+            <div class="rfq-terminal" role="form" aria-label="Formulario de solicitud de cotización">
+              <div class="rfq-terminal__header">
+                <span class="rfq-terminal__dot rfq-terminal__dot--red" aria-hidden="true"></span>
+                <span class="rfq-terminal__dot rfq-terminal__dot--yellow" aria-hidden="true"></span>
+                <span class="rfq-terminal__dot rfq-terminal__dot--green" aria-hidden="true"></span>
+                <span class="rfq-terminal__title">MCT RFQ · SOLICITUD DE COTIZACIÓN</span>
+              </div>
+
+              <div id="rfq-success" class="rfq-msg rfq-msg--ok" role="alert" style="display:none;">
+                <strong>✓ SOLICITUD RECIBIDA.</strong> Nuestro equipo de estimación revisará sus especificaciones técnicas en un plazo no mayor a 48 horas operativas.
+              </div>
+              <div id="rfq-error" class="rfq-msg rfq-msg--err" role="alert" style="display:none;"></div>
+
+              <form id="rfq-form" name="rfq-mct-v2" data-netlify="true" novalidate>
+                <input type="hidden" name="form-name" value="rfq-mct-v2">
+
+                <div class="rfq-row">
+                  <div class="rfq-field">
+                    <label for="rfq-name" class="rfq-label">NOMBRE COMPLETO <span aria-label="requerido">*</span></label>
+                    <input type="text" id="rfq-name" name="name" class="rfq-input" placeholder="Ing. Carlos Pérez" required autocomplete="name">
+                  </div>
+                  <div class="rfq-field">
+                    <label for="rfq-company" class="rfq-label">EMPRESA / ORGANIZACIÓN</label>
+                    <input type="text" id="rfq-company" name="company" class="rfq-input" placeholder="Ej. Reimpet Holding" autocomplete="organization">
+                  </div>
+                </div>
+
+                <div class="rfq-row">
+                  <div class="rfq-field">
+                    <label for="rfq-email" class="rfq-label">CORREO CORPORATIVO <span aria-label="requerido">*</span></label>
+                    <input type="email" id="rfq-email" name="email" class="rfq-input" placeholder="carlos@empresa.com" required autocomplete="email">
+                  </div>
+                  <div class="rfq-field">
+                    <label for="rfq-phone" class="rfq-label">TELÉFONO</label>
+                    <input type="tel" id="rfq-phone" name="phone" class="rfq-input" placeholder="+58 414-1234567" autocomplete="tel">
+                  </div>
+                </div>
+
+                <div class="rfq-field">
+                  <label for="rfq-service" class="rfq-label">DISCIPLINA / EQUIPO REQUERIDO <span aria-label="requerido">*</span></label>
+                  <select id="rfq-service" name="service" class="rfq-input rfq-select" required>
+                    <option value="" disabled selected>Seleccione la disciplina principal...</option>
+                    <optgroup label="— OIL &amp; GAS / EPC —">
+                      <option value="lineas-flujo">Fabricación de Líneas de Flujo</option>
+                      <option value="reparacion-ductos">Reparación / Saneamiento de Ductos</option>
+                      <option value="hot-tapping">Hot Tapping (Perforación en Caliente)</option>
+                      <option value="mantenimiento">Mantenimiento Facilidades / Parada de Planta</option>
+                      <option value="ndt">NDT — Ensayos No Destructivos</option>
+                      <option value="sandblasting">Sandblasting y Revestimiento</option>
+                      <option value="izaje">Montaje de Equipos / Izaje</option>
+                      <option value="civil">Obras Civiles de Soporte</option>
+                    </optgroup>
+                    <optgroup label="— FABRICACIÓN DE EQUIPOS —">
+                      <option value="vacuum">Fabricación / Reparación de Vacuum</option>
+                      <option value="lowboy">Fabricación de Low Boy</option>
+                      <option value="batea">Fabricación de Batea / Plataforma</option>
+                      <option value="fractank">Fabricación de Frac Tank</option>
+                      <option value="tanque">Fabricación de Tanque de Almacenamiento</option>
+                      <option value="separador">Fabricación de Separador Bifásico / Trifásico</option>
+                      <option value="galpon">Estructura para Galpón</option>
+                      <option value="filtros">Filtros Industriales Inox.</option>
+                      <option value="otro">Otro Equipo Especial</option>
+                    </optgroup>
+                  </select>
+                </div>
+
+                <div class="rfq-field">
+                  <label for="rfq-desc" class="rfq-label">ESPECIFICACIONES Y ALCANCE DEL PROYECTO <span aria-label="requerido">*</span></label>
+                  <textarea id="rfq-desc" name="desc" class="rfq-input rfq-textarea" placeholder="Indique: diámetros de tuberías, capacidades, número de ejes, normas requeridas, ubicación de obra, fecha estimada de inicio..." required></textarea>
+                </div>
+
+                <button type="submit" class="rfq-submit" id="rfq-submit-btn">
+                  <span id="rfq-btn-text">ENVIAR SOLICITUD RFQ</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================ -->
+  <!-- FOOTER                                                        -->
+  <!-- ============================================================ -->
+  <footer class="forge-footer">
+    <div class="forge-footer__inner">
+      <div class="forge-footer__brand">
+        <img src="assets2/logo.webp" alt="MCT Logo" class="forge-footer__logo">
+        <div>
+          <p class="forge-footer__name">MCT METAL CONSTRUCCIONES TILLERO, C.A.</p>
+          <p class="forge-footer__slogan">"Su Idea, Nuestro Trabajo" · San José de Guanipa, Anzoátegui · Venezuela</p>
+        </div>
+      </div>
+
+      <div class="forge-footer__compliance">
+        <span class="forge-footer__norm">ASME IX</span>
+        <span class="forge-footer__norm">API 1104</span>
+        <span class="forge-footer__norm">AWS D1.1</span>
+        <span class="forge-footer__norm">AISC</span>
+        <span class="forge-footer__norm">ACI 318</span>
+        <span class="forge-footer__norm">COVENIN</span>
+        <span class="forge-footer__norm forge-footer__norm--pdvsa">PRECALIFICADO PDVSA</span>
+      </div>
+
+      <div class="forge-footer__bottom">
+        <p>© 2026 MCT Metal Construcciones Tillero, C.A. — RIF: J-31592266-5 — www.mct.com.ve</p>
+        <a href="https://instagram.com/mcttillero" target="_blank" rel="noopener noreferrer" class="forge-footer__ig" aria-label="Instagram MCT">@mcttillero</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="index.js"></script>
+</body>
+</html>
