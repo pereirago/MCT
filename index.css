@@ -26,7 +26,7 @@
 @layer tokens {
   :root {
     /* --- Sidebar --- */
-    --sidebar-w: 72px;
+    --sidebar-w: 92px;
 
     /* --- Color System: FORGE PROTOCOL --- */
     /* Base surfaces */
@@ -37,10 +37,10 @@
     --grate:   #2d333b;       /* Hover borders */
 
     /* Text */
-    --ghost:   #c9d1d9;       /* Primary text */
-    --mist:    #8b949e;       /* Secondary text */
-    --ash:     #6e7681;       /* Muted text */
-    --pure:    #f0f6fc;       /* High emphasis */
+    --ghost:   #e2e8f0;       /* Primary text */
+    --mist:    #94a3b8;       /* Secondary text */
+    --ash:     #64748b;       /* Muted text */
+    --pure:    #ffffff;       /* High emphasis */
 
     /* Brand: Industrial Blue */
     --bolt:      #1565c0;     /* Deep industrial blue */
@@ -116,8 +116,8 @@
     font-family: var(--font-display);
     font-weight: 800;
     font-size: clamp(2.2rem, 4vw, 3.5rem);
-    line-height: 1.1;
-    letter-spacing: -0.01em;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
     color: var(--pure);
     margin-bottom: var(--space-md);
   }
@@ -143,9 +143,9 @@
   .forge-heading__slash--fab { color: var(--amber); }
 
   .forge-body {
-    color: var(--mist);
-    font-size: clamp(0.95rem, 1.1vw, 1.05rem);
-    line-height: 1.7;
+    color: var(--ghost);
+    font-size: clamp(1.05rem, 1.5vw, 1.25rem);
+    line-height: 1.75;
     max-width: 560px;
     margin-bottom: var(--space-sm);
   }
@@ -190,8 +190,8 @@
   }
 
   .sidebar__logo-img {
-    width: 36px;
-    height: 36px;
+    width: 48px;
+    height: 48px;
     object-fit: contain;
     filter: drop-shadow(0 0 6px rgba(56, 139, 253, 0.3));
   }
@@ -199,9 +199,9 @@
   .sidebar__brand-text {
     font-family: var(--font-display);
     font-weight: 900;
-    font-size: 0.75rem;
-    color: var(--mist);
-    letter-spacing: 0.15em;
+    font-size: 0.95rem;
+    color: var(--pure);
+    letter-spacing: 0.25em;
     writing-mode: horizontal-tb;
   }
 
@@ -249,16 +249,16 @@
 
   .sidebar__link-code {
     font-family: var(--font-mono);
-    font-size: 0.62rem;
+    font-size: 0.75rem;
     color: var(--ash);
     transition: var(--ease);
   }
 
   .sidebar__link-label {
     font-family: var(--font-display);
-    font-size: 0.55rem;
+    font-size: 0.75rem;
     font-weight: 700;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.12em;
     color: var(--ash);
     text-transform: uppercase;
     writing-mode: vertical-rl;
@@ -612,9 +612,9 @@
     font-weight: 900;
     font-size: clamp(1.8rem, 3vw, 2.8rem);
     color: var(--pure);
-    letter-spacing: 0.01em;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
-    line-height: 1;
+    line-height: 1.1;
   }
 
   .hero-split__desc {
@@ -702,11 +702,11 @@
   .hero-split__title {
     font-family: var(--font-display);
     font-weight: 900;
-    font-size: clamp(1rem, 1.6vw, 1.35rem);
+    font-size: clamp(1.4rem, 2.2vw, 1.85rem);
     color: var(--pure);
-    letter-spacing: 0.06em;
+    letter-spacing: 0.15em;
     text-transform: uppercase;
-    line-height: 1.1;
+    line-height: 1.2;
   }
 
   .hero-split__slogan {
@@ -745,17 +745,17 @@
   .hmi-metric__val {
     font-family: var(--font-display);
     font-weight: 900;
-    font-size: clamp(1.6rem, 2.5vw, 2.2rem);
+    font-size: clamp(2.2rem, 3.5vw, 3rem);
     color: var(--pure);
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
     line-height: 1;
   }
 
   .hmi-metric__label {
     font-family: var(--font-mono);
-    font-size: 0.55rem;
+    font-size: 0.7rem;
     color: var(--ash);
-    letter-spacing: 0.12em;
+    letter-spacing: 0.18em;
     text-transform: uppercase;
     white-space: nowrap;
   }
@@ -868,8 +868,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 36px;
-    height: 36px;
+    width: 48px;
+    height: 48px;
     border-radius: var(--radius-sm);
     background: var(--bolt-mist);
     color: var(--bolt-glow);
@@ -1811,7 +1811,7 @@
   .about-layout { grid-template-columns: 1fr; gap: 2.5rem; }
   .contact-layout { grid-template-columns: 1fr; gap: 2.5rem; }
   .hmi-metric { padding: 0.5rem 1.5rem; }
-  .hmi-metric__val { font-size: 1.5rem; }
+  .hmi-metric__val { font-size: 2.2rem; }
   .hero-split__half { padding: 2rem 2rem 7rem 2rem; }
   .contract-entry { grid-template-columns: 1fr; gap: 0.75rem; }
   .contract-entry__meta { border-right: none; padding-right: 0; margin-right: 0; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem; }
